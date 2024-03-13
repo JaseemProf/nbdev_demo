@@ -14,10 +14,10 @@ pip install nbdev_demo
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+This lib is to say hello to someone by there name.
 
 ``` python
-1+1
+say_hello("Zaseem")
 ```
 
-    2
+    'Hello, Zaseem!'

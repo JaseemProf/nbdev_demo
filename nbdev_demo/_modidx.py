@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://JaseemProf.github.io',
                 'git_url': 'https://github.com/JaseemProf/nbdev_demo',
                 'lib_path': 'nbdev_demo'},
-  'syms': {'nbdev_demo.core': {'nbdev_demo.core.foo': ('core.html#foo', 'nbdev_demo/core.py')}}}
+  'syms': { 'nbdev_demo.core': {'nbdev_demo.core.foo': ('core.html#foo', 'nbdev_demo/core.py')},
+            'nbdev_demo.demo': { 'nbdev_demo.demo.foo': ('demo.html#foo', 'nbdev_demo/demo.py'),
+                                 'nbdev_demo.demo.say_hello': ('demo.html#say_hello', 'nbdev_demo/demo.py')}}}
